@@ -1,21 +1,21 @@
 !(function (e) {
   function r(r) {
     for (
-      var n, l, a = r[0], p = r[1], f = r[2], c = 0, s = [];
-      c < a.length;
+      var n, l, i = r[0], p = r[1], a = r[2], c = 0, s = [];
+      c < i.length;
       c++
     )
-      (l = a[c]),
+      (l = i[c]),
         Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]),
         (o[l] = 0);
     for (n in p) Object.prototype.hasOwnProperty.call(p, n) && (e[n] = p[n]);
-    for (i && i(r); s.length; ) s.shift()();
-    return u.push.apply(u, f || []), t();
+    for (f && f(r); s.length; ) s.shift()();
+    return u.push.apply(u, a || []), t();
   }
   function t() {
     for (var e, r = 0; r < u.length; r++) {
-      for (var t = u[r], n = !0, a = 1; a < t.length; a++) {
-        var p = t[a];
+      for (var t = u[r], n = !0, i = 1; i < t.length; i++) {
+        var p = t[i];
         0 !== o[p] && (n = !1);
       }
       n && (u.splice(r--, 1), (e = l((l.s = t[0]))));
@@ -74,12 +74,12 @@
     (l.o = function (e, r) {
       return Object.prototype.hasOwnProperty.call(e, r);
     }),
-    (l.p = '/');
-  var a = (this.webpackJsonpexample = this.webpackJsonpexample || []),
-    p = a.push.bind(a);
-  (a.push = r), (a = a.slice());
-  for (var f = 0; f < a.length; f++) r(a[f]);
-  var i = p;
+    (l.p = 'https://shaddix.github.io/use-preserved-form/');
+  var i = (this.webpackJsonpexample = this.webpackJsonpexample || []),
+    p = i.push.bind(i);
+  (i.push = r), (i = i.slice());
+  for (var a = 0; a < i.length; a++) r(i[a]);
+  var f = p;
   t();
 })([]);
-//# sourceMappingURL=runtime-main.1bd49777.js.map
+//# sourceMappingURL=runtime-main.51fee851.js.map

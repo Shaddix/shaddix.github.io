@@ -15,7 +15,9 @@ importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js',
 );
 
-importScripts('/precache-manifest.aa0b53435abb730fdf77b458d399c0b6.js');
+importScripts(
+  'https://shaddix.github.io/use-preserved-form/precache-manifest.b0d62c75b625710c8176da801398d399.js',
+);
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
@@ -34,7 +36,9 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(
-  workbox.precaching.getCacheKeyForURL('/index.html'),
+  workbox.precaching.getCacheKeyForURL(
+    'https://shaddix.github.io/use-preserved-form/index.html',
+  ),
   {
     blacklist: [/^\/_/, /\/[^/?]+\.[^/]+$/],
   },
