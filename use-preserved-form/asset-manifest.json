@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://shaddix.github.io/use-preserved-form/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://shaddix.github.io/use-preserved-form/static/js/main.882051ce.chunk.js",
-    "main.js.map": "https://shaddix.github.io/use-preserved-form/static/js/main.882051ce.chunk.js.map",
+    "main.js": "https://shaddix.github.io/use-preserved-form/static/js/main.ed8ffd00.chunk.js",
+    "main.js.map": "https://shaddix.github.io/use-preserved-form/static/js/main.ed8ffd00.chunk.js.map",
     "runtime-main.js": "https://shaddix.github.io/use-preserved-form/static/js/runtime-main.51fee851.js",
     "runtime-main.js.map": "https://shaddix.github.io/use-preserved-form/static/js/runtime-main.51fee851.js.map",
-    "static/js/2.0acb96dd.chunk.js": "https://shaddix.github.io/use-preserved-form/static/js/2.0acb96dd.chunk.js",
-    "static/js/2.0acb96dd.chunk.js.map": "https://shaddix.github.io/use-preserved-form/static/js/2.0acb96dd.chunk.js.map",
+    "static/js/2.c76bd896.chunk.js": "https://shaddix.github.io/use-preserved-form/static/js/2.c76bd896.chunk.js",
+    "static/js/2.c76bd896.chunk.js.map": "https://shaddix.github.io/use-preserved-form/static/js/2.c76bd896.chunk.js.map",
     "index.html": "https://shaddix.github.io/use-preserved-form/index.html",
-    "precache-manifest.b0d62c75b625710c8176da801398d399.js": "https://shaddix.github.io/use-preserved-form/precache-manifest.b0d62c75b625710c8176da801398d399.js",
+    "precache-manifest.a3689f8f25a2b59f7b59af9d18eed1b3.js": "https://shaddix.github.io/use-preserved-form/precache-manifest.a3689f8f25a2b59f7b59af9d18eed1b3.js",
     "service-worker.js": "https://shaddix.github.io/use-preserved-form/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "https://shaddix.github.io/use-preserved-form/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0acb96dd.chunk.js.LICENSE.txt": "https://shaddix.github.io/use-preserved-form/static/js/2.0acb96dd.chunk.js.LICENSE.txt"
+    "static/js/2.c76bd896.chunk.js.LICENSE.txt": "https://shaddix.github.io/use-preserved-form/static/js/2.c76bd896.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.51fee851.js",
-    "static/js/2.0acb96dd.chunk.js",
+    "static/js/2.c76bd896.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.882051ce.chunk.js"
+    "static/js/main.ed8ffd00.chunk.js"
   ]
 }

@@ -16,7 +16,7 @@ importScripts(
 );
 
 importScripts(
-  'https://shaddix.github.io/use-preserved-form/precache-manifest.b0d62c75b625710c8176da801398d399.js',
+  'https://shaddix.github.io/use-preserved-form/precache-manifest.a3689f8f25a2b59f7b59af9d18eed1b3.js',
 );
 
 self.addEventListener('message', (event) => {
