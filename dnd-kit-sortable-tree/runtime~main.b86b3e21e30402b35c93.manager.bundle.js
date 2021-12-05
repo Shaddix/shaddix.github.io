@@ -1,4 +1,4 @@
-!(function (modules) {
+!(function(modules) {
   function webpackJsonpCallback(data) {
     for (
       var moduleId,
@@ -45,7 +45,7 @@
     return result;
   }
   var installedModules = {},
-    installedChunks = { 5: 0 },
+    installedChunks = { 2: 0 },
     deferredModules = [];
   function __webpack_require__(moduleId) {
     if (installedModules[moduleId]) return installedModules[moduleId].exports;
@@ -71,7 +71,7 @@
     if (0 !== installedChunkData)
       if (installedChunkData) promises.push(installedChunkData[2]);
       else {
-        var promise = new Promise(function (resolve, reject) {
+        var promise = new Promise(function(resolve, reject) {
           installedChunkData = installedChunks[chunkId] = [resolve, reject];
         });
         promises.push((installedChunkData[2] = promise));
@@ -88,19 +88,18 @@
               ({}[chunkId] || chunkId) +
               '.' +
               {
-                0: 'fff99874',
-                1: '27e46ccf',
-                2: 'f4bb64be',
-                3: '750bc59e',
-                7: '818203ed',
-                8: '91de97de',
-                9: '40ec65d6',
+                0: '556846f3f8ad2c37e41a',
+                4: '16b3f84b416f926ea08c',
+                5: '3ec3afca7f02f16570ef',
+                6: '31eb8b1734e7a721295d',
+                7: '7e34c842b7bf8addc49b',
+                8: '3eb9f752610740de7d8c',
               }[chunkId] +
-              '.iframe.bundle.js'
+              '.manager.bundle.js'
             );
           })(chunkId));
         var error = new Error();
-        onScriptComplete = function (event) {
+        onScriptComplete = function(event) {
           (script.onerror = script.onload = null), clearTimeout(timeout);
           var chunk = installedChunks[chunkId];
           if (0 !== chunk) {
@@ -124,7 +123,7 @@
             installedChunks[chunkId] = void 0;
           }
         };
-        var timeout = setTimeout(function () {
+        var timeout = setTimeout(function() {
           onScriptComplete({ type: 'timeout', target: script });
         }, 12e4);
         (script.onerror = script.onload = onScriptComplete),
@@ -134,17 +133,17 @@
   }),
     (__webpack_require__.m = modules),
     (__webpack_require__.c = installedModules),
-    (__webpack_require__.d = function (exports, name, getter) {
+    (__webpack_require__.d = function(exports, name, getter) {
       __webpack_require__.o(exports, name) ||
         Object.defineProperty(exports, name, { enumerable: !0, get: getter });
     }),
-    (__webpack_require__.r = function (exports) {
+    (__webpack_require__.r = function(exports) {
       'undefined' != typeof Symbol &&
         Symbol.toStringTag &&
         Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' }),
         Object.defineProperty(exports, '__esModule', { value: !0 });
     }),
-    (__webpack_require__.t = function (value, mode) {
+    (__webpack_require__.t = function(value, mode) {
       if ((1 & mode && (value = __webpack_require__(value)), 8 & mode))
         return value;
       if (4 & mode && 'object' == typeof value && value && value.__esModule)
@@ -159,13 +158,13 @@
           __webpack_require__.d(
             ns,
             key,
-            function (key) {
+            function(key) {
               return value[key];
             }.bind(null, key)
           );
       return ns;
     }),
-    (__webpack_require__.n = function (module) {
+    (__webpack_require__.n = function(module) {
       var getter =
         module && module.__esModule
           ? function getDefault() {
@@ -176,11 +175,11 @@
             };
       return __webpack_require__.d(getter, 'a', getter), getter;
     }),
-    (__webpack_require__.o = function (object, property) {
+    (__webpack_require__.o = function(object, property) {
       return Object.prototype.hasOwnProperty.call(object, property);
     }),
     (__webpack_require__.p = ''),
-    (__webpack_require__.oe = function (err) {
+    (__webpack_require__.oe = function(err) {
       throw (console.error(err), err);
     });
   var jsonpArray = (window.webpackJsonp = window.webpackJsonp || []),

@@ -1,17 +1,17 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [3],
   {
-    './node_modules/@storybook/preview-web/dist/esm/renderDocs.js': function (
+    './node_modules/@storybook/preview-web/dist/esm/renderDocs.js': function(
       module,
       __webpack_exports__,
       __webpack_require__
     ) {
       'use strict';
       __webpack_require__.r(__webpack_exports__),
-        __webpack_require__.d(__webpack_exports__, 'renderDocs', function () {
+        __webpack_require__.d(__webpack_exports__, 'renderDocs', function() {
           return renderDocs;
         }),
-        __webpack_require__.d(__webpack_exports__, 'unmountDocs', function () {
+        __webpack_require__.d(__webpack_exports__, 'unmountDocs', function() {
           return unmountDocs;
         });
       __webpack_require__('./node_modules/regenerator-runtime/runtime.js'),
@@ -99,10 +99,10 @@
         info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
       }
       function _asyncToGenerator(fn) {
-        return function () {
+        return function() {
           var self = this,
             args = arguments;
-          return new Promise(function (resolve, reject) {
+          return new Promise(function(resolve, reject) {
             var gen = fn.apply(self, args);
             function _next(value) {
               asyncGeneratorStep(
@@ -159,7 +159,7 @@
                         (null != docs && docs.page)
                       ) ||
                       (null != docs && docs.getContainer) ||
-                      (null != docs && docs.container)
+                        (null != docs && docs.container)
                     ) {
                       _context.next = 3;
                       break;
@@ -186,7 +186,7 @@
                       _context.next = 11;
                       break;
                     }
-                    _context.t0 = function (_ref) {
+                    _context.t0 = function(_ref) {
                       var children = _ref.children;
                       return react_default.a.createElement(
                         react_default.a.Fragment,
@@ -227,7 +227,7 @@
                         react_default.a.createElement(Page, null)
                       )),
                       (_context.next = 24),
-                      new Promise(function (resolve) {
+                      new Promise(function(resolve) {
                         react_dom_default.a.render(
                           docsElement,
                           element,
